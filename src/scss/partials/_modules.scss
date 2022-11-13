@@ -1,6 +1,23 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
-.about,.menu{
+.about{
+    &-s1,&-s2{
+        background-position-x: center!important;
+    } 
+    &-s3{
+        background-color: #999 !important;
+        background-blend-mode: multiply!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: center!important;
+    }
+}
+.menu{
+    &-s1{
+        background-position-x: center!important;
+    }
     &-s3{
         background-color: #999 !important;
         background-blend-mode: multiply!important;
@@ -11,7 +28,6 @@
         text-shadow: $text__shadow;
     }
 }
-
 nav{
     z-index: 10;
 }
